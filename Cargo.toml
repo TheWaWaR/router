@@ -10,6 +10,6 @@ documentation = "http://ironframework.io/doc/router/index.html"
 keywords = ["iron", "web", "http", "routing", "router"]
 
 [dependencies]
-route-recognizer = "0.1"
+route-recognizer = { git="https://github.com/Nemo157/route-recognizer.rs", branch="reverse_priority"}
 iron = "0.5"
 url = "1.1"
